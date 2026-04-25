@@ -45,7 +45,7 @@ export default function Header() {
                             Contact
                         </NavLink>
                          <NavLink
-                            to="/event&dining"
+                            to="/event"
                             style={({ isActive }) => ({
                                 color: isActive ? "orange" : "black",
                                 fontWeight: isActive ? "700" : "400"

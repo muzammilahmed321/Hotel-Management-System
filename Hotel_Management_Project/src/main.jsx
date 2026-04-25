@@ -14,6 +14,7 @@ import About from './Component/Header/Footer/Home/About/Contactus/About';
 import Contact from './Component/Header/Contactus/Contactus';
 import Signup from './Component/Header/Signup/Signup';
 import Login from './Component/Header/Login/Login';
+import EventAndDining from './Component/Header/Event/Event';
 
 
 // const router = createBrowserRouter([
@@ -44,6 +45,7 @@ const router = createBrowserRouter(
     <Route path="contact" element={<Contact />} />
     <Route path="signup" element={<Signup />} />
     <Route path="login" element={<Login />} />
+     <Route path="event" element={<EventAndDining />} />
     {/* <Route path="user/:userid" element={<User />} /> */}
     {/* <Route
       path="github"
